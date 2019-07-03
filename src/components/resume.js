@@ -6,7 +6,7 @@ class Resume extends Component {
   render () {
     return (
       <div>
-        Butts
+        Resume
       </div>
     );
   }
