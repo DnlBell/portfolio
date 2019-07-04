@@ -1,21 +1,14 @@
 import { createMuiTheme } from '@material-ui/core/styles';
+import teal from '@material-ui/core/colors/teal';
 
 const theme = createMuiTheme({
   typography: {
     useNextVariants: true,
   },
   palette: {
-    primary: {
-      light: '#52c7b8',
-      main: '#009688',
-      dark: '#00675b',
-      contrastText: '#000000',
-    },
+    primary: teal,
     secondary: {
-      light: '#fff263',
-      main: '#fbc02d',
-      dark: '#00675b',
-      contrastText: '#000000',
+      main: '#ffa000'
     },
     shape: {
         borderRadius: 8

@@ -6,6 +6,7 @@ import Tab from '@material-ui/core/Tab';
 import MuiThemeProvider from '@material-ui/core/styles/MuiThemeProvider';
 import muiTheme from './theme/muiTheme';
 import Header from './components/header';
+import Footer from './components/footer';
 import Home from './components/home';
 import Projects from './components/projects';
 import Resume from './components/resume';
@@ -42,7 +43,7 @@ class App extends Component {
             <Route path={`/projects`} component={Projects} />
             <Route path={`/resume`} component={Resume} />
           </Switch>
-          footer
+          <Footer/>
           </Fragment>
           )}
         />

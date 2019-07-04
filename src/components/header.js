@@ -1,9 +1,14 @@
 import React, { Component } from 'react';
 import { styled } from '@material-ui/styles';
 import Box from '@material-ui/core/Box';
+import Sky from '../images/Sky.png';
 
 const MyHeader = styled(Box)({
-  width: "100%"
+  width: "100%",
+  textAlign: "center",
+  backgroundImage: `url(${Sky})`,
+  height: 100,
+  lineHeight: 3
 });
 
 class Header extends Component {
@@ -11,7 +16,7 @@ class Header extends Component {
   render () {
     return (
       <MyHeader mt={-3}>
-        <h1>Header</h1>
+        <h1><i>Portfolio</i></h1>
       </MyHeader>
     );
   }
