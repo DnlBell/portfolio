@@ -1,17 +1,7 @@
 import React from 'react';
-import { styled} from '@material-ui/styles';
-import Container from '@material-ui/core/Container';
+import { styled } from '@material-ui/styles';
 import Box from '@material-ui/core/Box';
-
-const MyContainer = styled(Container)({
-});
-
-const HomeBox = styled(Box)({
-  display: "flex",
-  flexDirection:"row",
-  flexWrap:"wrap",
-  justifyContent:"center",
-});
+import { ContentBox } from '../styles/common';
 
 const Image = styled(Box)({
   width: 250,
@@ -28,8 +18,7 @@ const ImageBox = styled(Box)({
 
 function Home () {
   return (
-    <MyContainer maxWidth="md" >
-      <HomeBox mt={2} >
+    <ContentBox mt={2} >
       <ImageBox>
         <Image/>
         <i>"Hello"</i>
@@ -40,8 +29,7 @@ function Home () {
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
-      </HomeBox>
-    </MyContainer>
+    </ContentBox>
   );
 }
 
