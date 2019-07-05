@@ -1,4 +1,4 @@
-import { Button, Box } from "@material-ui/core";
+import { Button, Box, Chip } from "@material-ui/core";
 import { styled } from '@material-ui/styles';
 
 export const PrimaryButton = styled(Button)({
@@ -6,8 +6,8 @@ export const PrimaryButton = styled(Button)({
     border: 0,
     borderRadius: 3,
     boxShadow: '0 3px 5px 2px lightGrey',
-    color: 'lightGrey',
-    padding: '8px 20px',
+    color: 'white',
+    padding: '6px 15px',
 });
   
 export const SecondaryButton = styled(Button)({
@@ -15,8 +15,8 @@ export const SecondaryButton = styled(Button)({
     border: 0,
     borderRadius: 3,
     boxShadow: '0 3px 5px 2px lightGrey',
-    color: 'grey',
-    padding: '8px 20px',
+    color: 'black',
+    padding: '6px 15px',
     marginLeft: '10px'
 });
   
@@ -27,4 +27,7 @@ export const ContentBox = styled(Box)({
     justifyContent:"center",
 });
 
-  
+export const SkillChip = styled(Chip)({
+    marginLeft: 4,
+    marginTop: 4
+});

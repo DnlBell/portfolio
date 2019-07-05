@@ -1,15 +1,15 @@
 import React from 'react';
-import { ContentBox, PrimaryButton, SecondaryButton } from '../styles/common';
-
-
-
-
+import { ContentBox } from '../styles/common';
+import ProjectCard from './projectCard';
 
 function Projects () {
     return (
           <ContentBox mt={2}>
-              <PrimaryButton>Code</PrimaryButton>
-              <SecondaryButton>Visit</SecondaryButton>
+              <ProjectCard />
+              <ProjectCard />
+              <ProjectCard />
+              <ProjectCard />
+              <ProjectCard />
           </ContentBox>
     );
 }

@@ -1,17 +1,12 @@
 import React, { Component } from 'react';
-import {Typography, Box, Chip } from '@material-ui/core';
+import {Typography, Box} from '@material-ui/core';
 import { styled } from '@material-ui/styles';
-import { ContentBox, PrimaryButton, SecondaryButton } from '../styles/common';
+import { ContentBox, SkillChip } from '../styles/common';
 
 const SubHeading = styled(Box)({
   marginTop : 8,
   marginBottom: 8
 });
-
-const SkillChip = styled(Chip)({
-  marginLeft: 4,
-  marginTop: 4
-})
 
 class Resume extends Component {
 
