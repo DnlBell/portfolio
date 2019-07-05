@@ -52,12 +52,12 @@ class Resume extends Component {
             <Typography variant="h5">Education</Typography>
           </SubHeading>
           <Typography color="primary"><strong>B.A.S of Application Development | North Seattle College | Class of 2019</strong></Typography>
-          This program focused on core computer science competencies and the skills needed to develop software in a collaborative environment. Using agile methods, Git, & GitHub, we developed software for web, mobile, and cloud-based platforms with quarter long practicum projects for each focus.
+          This program focused on core computer science competencies and the skills needed to develop software in a collaborative environment. Using agile methods, Git, and GitHub, we developed software for web, mobile, and cloud-based platforms with quarter long practicum projects for each focus.
           <SubHeading>
             <Typography variant="h5">Recent Experince</Typography>
           </SubHeading>
           <Typography color="primary"><strong>Helpdesk Specialist | MG2 | August 2014 – Present</strong></Typography>
-          I am responsible for in-person and remote technical support for over three-hundred people in a primarily Windows domain environment. I closed over 2100 support tickets last year. With effective time management and issue elevation, this has resulted in virtually no backlogged issues week to week. While here, I have developed tools with Node.js to merge data from our vendor's warranty lookup API with our current asset data.
+          I am responsible for in person and remote technical support for over three-hundred people in a primarily Windows domain environment. I closed over 2100 support tickets last year. With effective time management and issue elevation, this has resulted in virtually no backlogged issues week to week. While here, I have developed tools with Node.js to merge data from our vendor's warranty lookup API with our current asset data.
 
         </div>
       </ContentBox>
