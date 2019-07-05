@@ -8,6 +8,7 @@ export const PrimaryButton = styled(Button)({
     boxShadow: '0 3px 5px 2px lightGrey',
     color: 'white',
     padding: '6px 15px',
+    margin: '4px'
 });
   
 export const SecondaryButton = styled(Button)({
@@ -17,7 +18,7 @@ export const SecondaryButton = styled(Button)({
     boxShadow: '0 3px 5px 2px lightGrey',
     color: 'black',
     padding: '6px 15px',
-    marginLeft: '10px'
+    margin: '4px'
 });
   
 export const ContentBox = styled(Box)({

@@ -2,11 +2,12 @@ import React from 'react';
 import { styled } from '@material-ui/styles';
 import Box from '@material-ui/core/Box';
 import { ContentBox } from '../styles/common';
+import Avatar from '@material-ui/core/Avatar';
+import Face from '../images/face.jpg';
 
-const Image = styled(Box)({
+const Image = styled(Avatar)({
   width: 250,
   height: 250,
-  backgroundColor: "grey",
   margin: 10
 });
 
@@ -20,7 +21,7 @@ function Home () {
   return (
     <ContentBox mt={2} >
       <ImageBox>
-        <Image/>
+        <Image alt="Daniel Bell" src={Face}/>
         <i>"Hello"</i>
       </ImageBox>
       <div>

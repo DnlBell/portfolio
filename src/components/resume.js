@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {Typography, Box} from '@material-ui/core';
 import { styled } from '@material-ui/styles';
-import { ContentBox, SkillChip } from '../styles/common';
+import { ContentBox, SkillChip, PrimaryButton, SecondaryButton } from '../styles/common';
 
 const SubHeading = styled(Box)({
   marginTop : 8,
@@ -14,10 +14,16 @@ class Resume extends Component {
     return (
       <ContentBox mt={2}>
         <div>
-          <Typography variant="h3" gutterBottom>Danny Bell</Typography>
+          <Typography variant="h4" gutterBottom><strong>Daniel Bell</strong></Typography>
           <span role="img" aria-label="City">🏙️</span> Seattle, Washington
           <br/>
           <span role="img" aria-label="Mobile">📱</span> (206)765-7109
+          <br/>
+          <SubHeading>
+           <Typography color="secondary"><strong>Download</strong></Typography>
+          </SubHeading>
+          <PrimaryButton>PDF</PrimaryButton>
+          <SecondaryButton>DOCX</SecondaryButton>
           <SubHeading>
             <Typography variant="h5">Summary</Typography>
           </SubHeading>
