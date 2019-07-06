@@ -1,16 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
 import {Typography, Box} from '@material-ui/core';
 import { styled } from '@material-ui/styles';
 import { ContentBox, SkillChip, PrimaryButton, SecondaryButton } from '../styles/common';
 
 const SubHeading = styled(Box)({
-  marginTop : 8,
-  marginBottom: 8
+  marginTop : 12,
+  marginBottom: 6
 });
 
-class Resume extends Component {
-
-  render () {
+function Resume() {
     return (
       <ContentBox mt={2}>
         <div>
@@ -58,11 +56,9 @@ class Resume extends Component {
           </SubHeading>
           <Typography color="primary"><strong>Helpdesk Specialist | MG2 | August 2014 – Present</strong></Typography>
           I am responsible for in person and remote technical support for over three-hundred people in a primarily Windows domain environment. I closed over 2100 support tickets last year. With effective time management and issue elevation, this has resulted in virtually no backlogged issues week to week. While here, I have developed tools with Node.js to merge data from our vendor's warranty lookup API with our current asset data.
-
         </div>
       </ContentBox>
     );
-  }
 }
 
 export default Resume;

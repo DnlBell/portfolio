@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { styled } from '@material-ui/styles';
 import Box from '@material-ui/core/Box';
 import Sky from '../images/Sky.png';
@@ -11,15 +11,12 @@ const MyHeader = styled(Box)({
   lineHeight: 3
 });
 
-class Header extends Component {
-
-  render () {
+function Header() {
     return (
       <MyHeader mt={-3}>
         <h1><i>Portfolio</i></h1>
       </MyHeader>
     );
-  }
 }
 
 export default Header;
