@@ -3,7 +3,6 @@ import { Route, BrowserRouter } from "react-router-dom";
 import MuiThemeProvider from '@material-ui/core/styles/MuiThemeProvider';
 import muiTheme from './theme/muiTheme';
 import Header from './components/header';
-import Footer from './components/footer';
 import Nav from './components/nav';
 import Content from './components/content';
 
@@ -20,7 +19,6 @@ export default function App() {
           <Header/>
           <Nav location={location}/>
           <Content/>
-          <Footer/>
         </Fragment>
           )}
         />
