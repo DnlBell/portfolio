@@ -4,7 +4,8 @@ import Box from '@material-ui/core/Box';
 
 const MyFooter = styled(Box)({
   width: "100%",
-  textAlign: "center"
+  textAlign: "center",
+  margin: "8px"
 });
 
 class Footer extends Component {
