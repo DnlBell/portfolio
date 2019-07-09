@@ -2,7 +2,7 @@ import { Button, Box, Chip } from "@material-ui/core";
 import { styled } from '@material-ui/styles';
 
 export const PrimaryButton = styled(Button)({
-    background: 'linear-gradient(45deg, #00897b 100%, #FF8E53 90%)',
+    background: 'linear-gradient(45deg, #009688 100%, #FF8E53 90%)',
     border: 0,
     borderRadius: 3,
     boxShadow: '0 3px 5px 2px lightGrey',

@@ -1,29 +1,29 @@
 import React from 'react';
-import { PrimaryButton, SecondaryButton, SkillChip } from '../styles/common';
+import { PrimaryButton, SecondaryButton } from '../styles/common';
 import { Card, CardMedia, CardContent, Typography } from '@material-ui/core';
-import { styled } from '@material-ui/styles';
-import Graphene from '../images/graphene.jpg'
+import { styled, getThemeProps } from '@material-ui/styles';
+import Chips from './chips';
+
 
 const StyledCard = styled(Card)({
     maxWidth: 400,
     margin: 8
 });
 
-function Projects () {
+function project (props) {
     return (
           <StyledCard>
               <CardMedia
                 component="img"
-                alt="Graphene"
+                alt="project"
                 height="140"
-                image= {Graphene}
-                title="Graphene"
+                image= {props.image}
+                title="Project"
               />
               <CardContent>
-                <Typography  variant="h5" gutterBottom><strong>Project Title</strong></Typography>
-                <SkillChip color="primary" label="JavaScript"/>
-                <SkillChip color="secondary" label="React.js"/>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <Typography  variant="h5" gutterBottom><strong>{props.title}</strong></Typography>
+                <Chips chips={props.chips}/>
+                <p>{props.description}</p>
                 <PrimaryButton>Visit</PrimaryButton>
                 <SecondaryButton>Code</SecondaryButton>
               </CardContent>
@@ -31,4 +31,4 @@ function Projects () {
     );
 }
 
-export default Projects;
+export default project;

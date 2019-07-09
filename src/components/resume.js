@@ -29,14 +29,14 @@ function Resume() {
           <SubHeading>
             <Typography variant="h5">Skills</Typography>
           </SubHeading>
-          <SkillChip color="primary" label="JavaScript"/>
-          <SkillChip color="primary" label="Java"/>
+          <SkillChip style={{background: '#009688', color: 'white'}} label="JavaScript"/>
+          <SkillChip style={{background: '#009688', color: 'white'}} label="Java"/>
           <SkillChip style={{background: 'grey', color: 'white'}} label="MySQL"/>
-          <SkillChip color="secondary" label="React.js"/>
-          <SkillChip color="Secondary" label="Node.js"/>
-          <SkillChip color="Secondary" label="Express.js"/>
-          <SkillChip color="Secondary" label="ReactNative"/>
-          <SkillChip color="Secondary" label="Redux"/>
+          <SkillChip style={{background: '#ffa000', color: 'black'}} label="React.js"/>
+          <SkillChip style={{background: '#ffa000', color: 'black'}} label="Node.js"/>
+          <SkillChip style={{background: '#ffa000', color: 'black'}} label="Express.js"/>
+          <SkillChip style={{background: '#ffa000', color: 'black'}} label="ReactNative"/>
+          <SkillChip style={{background: '#ffa000', color: 'black'}} label="Redux"/>
           <SkillChip style={{background: 'grey', color: 'white'}} label="REST"/>
           <SkillChip style={{background: '#6293c9', color: 'white'}} label="Git"/>
           <SkillChip style={{background: '#6293c9', color: 'white'}} label="GitHub"/>
