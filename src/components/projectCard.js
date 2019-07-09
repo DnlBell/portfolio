@@ -11,23 +11,34 @@ const StyledCard = styled(Card)({
 });
 
 function project (props) {
-    return (
-          <StyledCard>
-              <CardMedia
-                component="img"
-                alt="project"
-                height="140"
-                image= {props.image}
-                title="Project"
-              />
-              <CardContent>
-                <Typography  variant="h5" gutterBottom><strong>{props.title}</strong></Typography>
-                <Chips chips={props.chips}/>
-                <p>{props.description}</p>
-                <PrimaryButton>Visit</PrimaryButton>
-                <SecondaryButton>Code</SecondaryButton>
-              </CardContent>
-          </StyledCard>
+
+  let buttons = [];
+
+  if(props.visitUrl != null){
+    buttons.push(<PrimaryButton href={props.visitUrl} target="_blank">Visit</PrimaryButton>)
+  }
+
+  if(props.codeUrl != null){
+    buttons.push(<SecondaryButton href={props.codeUrl} target="_blank">Code</SecondaryButton>)
+  }
+
+
+  return (
+        <StyledCard>
+            <CardMedia
+              component="img"
+              alt="project"
+              height="140"
+              image= {props.image}
+              title="Project"
+            />
+            <CardContent>
+              <Typography  variant="h5" gutterBottom><strong>{props.title}</strong></Typography>
+              <Chips chips={props.chips}/>
+              <p>{props.description}</p>
+              {buttons}
+            </CardContent>
+        </StyledCard>
     );
 }
 
