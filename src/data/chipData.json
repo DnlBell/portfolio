@@ -12,10 +12,14 @@
         "git":{"label":"Git","background":"#6293c9", "color":"white"},
         "github":{"label":"GitHub","background":"#6293c9", "color":"white"},
         "jest":{"label":"Jest","background":"#6293c9", "color":"white"},
+        "espresso":{"label":"Espresso","background":"#6293c9", "color":"white"},
         "npm":{"label":"NPM","background":"#6293c9", "color":"white"},
         "travisci":{"label":"TravisCi","background":"#6293c9", "color":"white"},
+        "circleci":{"label":"CircleCi","background":"#6293c9", "color":"white"},
+        "azure":{"label":"Azure","background":"#6293c9", "color":"white"},
         "html":{"label":"HTML","background":"#009688", "color":"white"},
         "css":{"label":"CSS","background":"#009688", "color":"white"},
-        "json":{"label":"JSON","background":"grey", "color":"white"}
+        "json":{"label":"JSON","background":"grey", "color":"white"},
+        "android":{"label":"Android","background":"#ffa000", "color":"black"}
     }
 }
