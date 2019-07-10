@@ -1,6 +1,7 @@
 import React from 'react';
-import {Typography, Box} from '@material-ui/core';
+import { Typography, Box} from '@material-ui/core';
 import { styled } from '@material-ui/styles';
+import { Link } from 'react-router-dom';
 import { ContentBox, SkillChip, PrimaryButton, SecondaryButton } from '../styles/common';
 
 const SubHeading = styled(Box)({
@@ -20,8 +21,20 @@ function Resume() {
           <SubHeading>
            <Typography color="secondary"><strong>Download</strong></Typography>
           </SubHeading>
-          <PrimaryButton>PDF</PrimaryButton>
-          <SecondaryButton>DOCX</SecondaryButton>
+          <PrimaryButton  
+            component={Link} 
+            to ="/static/resume.pdf" 
+            target="_blank"
+            style={{ textDecoration: 'none' }}>
+              PDF
+          </PrimaryButton>
+          <SecondaryButton 
+            component={Link} 
+            to ="/static/resume.pdf" 
+            target="_blank"
+            style={{ textDecoration: 'none' }}>
+              DOCX
+          </SecondaryButton>
           <SubHeading>
             <Typography variant="h5">Summary</Typography>
           </SubHeading>
