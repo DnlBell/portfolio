@@ -28,13 +28,6 @@ function Resume() {
             style={{ textDecoration: 'none' }}>
               PDF
           </PrimaryButton>
-          <SecondaryButton 
-            component={Link} 
-            to ="/static/resume.pdf" 
-            target="_blank"
-            style={{ textDecoration: 'none' }}>
-              DOCX
-          </SecondaryButton>
           <SubHeading>
             <Typography variant="h5">Summary</Typography>
           </SubHeading>
