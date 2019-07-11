@@ -13,7 +13,7 @@ export default function Content(){
 
     const { location } = useRouter()
     const transitions = useTransition(location, location => location.pathname, {
-        from: { position: 'absolute', opacity: 0  },
+        from: { position: 'absolute', opacity: 0,  },
         enter: { opacity: 1,  },
         leave: { opacity: 0,  },
     })

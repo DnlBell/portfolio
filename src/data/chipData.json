@@ -1,0 +1,25 @@
+{
+    "chips":{
+        "javascript":{"label":"JavaScript", "background": "#009688", "color":"white"},
+        "java":{"label":"Java", "background":"#009688", "color":"white"},
+        "react":{"label":"React.js","background":"#ffa000", "color":"black"},
+        "node":{"label":"Node","background":"#ffa000", "color":"black"},
+        "mysql":{"label":"MySql","background":"grey", "color":"black"},
+        "express":{"label":"Express.js","background":"#ffa000", "color":"black"},
+        "reactnative":{"label":"React Native","background":"#ffa000", "color":"black"},
+        "redux":{"label":"Redux","background":"#ffa000", "color":"black"},
+        "rest":{"label":"REST","background":"grey", "color":"white"},
+        "git":{"label":"Git","background":"#6293c9", "color":"white"},
+        "github":{"label":"GitHub","background":"#6293c9", "color":"white"},
+        "jest":{"label":"Jest","background":"#6293c9", "color":"white"},
+        "espresso":{"label":"Espresso","background":"#6293c9", "color":"white"},
+        "npm":{"label":"NPM","background":"#6293c9", "color":"white"},
+        "travisci":{"label":"TravisCi","background":"#6293c9", "color":"white"},
+        "circleci":{"label":"CircleCi","background":"#6293c9", "color":"white"},
+        "azure":{"label":"Azure","background":"#6293c9", "color":"white"},
+        "html":{"label":"HTML","background":"#009688", "color":"white"},
+        "css":{"label":"CSS","background":"#009688", "color":"white"},
+        "json":{"label":"JSON","background":"grey", "color":"white"},
+        "android":{"label":"Android","background":"#ffa000", "color":"black"}
+    }
+}
