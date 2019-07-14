@@ -2,7 +2,7 @@ import React from 'react';
 import { Typography, Box} from '@material-ui/core';
 import { styled } from '@material-ui/styles';
 import { Link } from 'react-router-dom';
-import { ContentBox, SkillChip, PrimaryButton, SecondaryButton } from '../styles/common';
+import { ContentBox, SkillChip, PrimaryButton } from '../styles/common';
 
 const SubHeading = styled(Box)({
   marginTop : 12,

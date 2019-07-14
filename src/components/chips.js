@@ -11,7 +11,13 @@ export default function Chips(props) {
     for(let i = 0; i < props.chips.length; i++) {
         let currentChip = data['chips'][props.chips[i]];
         chipArray.push(
-            <SkillChip style={{background: currentChip.background, color: currentChip.color}} label= {currentChip.label}/>
+            <SkillChip 
+                key = {i}
+                style = {{
+                    background: currentChip.background, 
+                    color: currentChip.color
+                }} 
+                label= {currentChip.label}/>
         )
     }
 

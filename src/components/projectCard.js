@@ -1,7 +1,7 @@
 import React from 'react';
 import { PrimaryButton, SecondaryButton } from '../styles/common';
 import { Card, CardMedia, CardContent, Typography } from '@material-ui/core';
-import { styled, getThemeProps } from '@material-ui/styles';
+import { styled } from '@material-ui/styles';
 import Chips from './chips';
 
 
