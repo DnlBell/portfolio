@@ -18,6 +18,8 @@ function Resume() {
           <br/>
           <span role="img" aria-label="Mobile">📱</span> (206)765-7109
           <br/>
+          <span role="img" aria-label="Mobile">✉️</span> Dnl.Bell@gmail.com
+          <br/>
           <SubHeading>
            <Typography color="secondary"><strong>Download</strong></Typography>
           </SubHeading>
